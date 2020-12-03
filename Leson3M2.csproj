@@ -49,7 +49,10 @@
     <Compile Include="Models\Car.cs" />
     <Compile Include="Entities\TaxiStation.cs" />
     <Compile Include="Models\ICarProperties.cs" />
-    <Compile Include="Models\Сars\PassangerTaxi.cs" />
+    <Compile Include="Models\Сars\Mercedes.cs" />
+    <Compile Include="Models\Сars\PassengerTaxi.cs" />
+    <Compile Include="Models\Сars\Vaz.cs" />
+    <Compile Include="Models\Сars\Volkswagen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
