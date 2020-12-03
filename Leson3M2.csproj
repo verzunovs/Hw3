@@ -46,6 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\TypeOfTaxi.cs" />
+    <Compile Include="Helper\CarComparer.cs" />
+    <Compile Include="Services\ITaxiStationService.cs" />
+    <Compile Include="Services\TaxiStationService.cs" />
+    <Compile Include="Starter.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Entities\TaxiStation.cs" />
     <Compile Include="Models\ICarProperties.cs" />
@@ -64,8 +68,6 @@
     <Analyzer Include="packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
     <Analyzer Include="packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helper\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

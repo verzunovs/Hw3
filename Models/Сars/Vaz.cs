@@ -1,7 +1,7 @@
-﻿using Leson3M2.Enums;
-
-namespace Leson3M2.Models.Сars
+﻿namespace Leson3M2.Models.Сars
 {
+    using Leson3M2.Enums;
+
     /// <summary>
     /// VAZ.
     /// </summary>
@@ -14,8 +14,9 @@ namespace Leson3M2.Models.Сars
         /// <param name="fuelTankVolume">Max Amount of fuel which fuel tank can contain.</param>
         /// <param name="vehicleMileage">Amount of km which car overcome.</param>
         /// <param name="seats">Amount of seats which can be used for passengers.</param>
-        public Vaz(double fuelConsumption, double fuelTankVolume, int vehicleMileage, int seats)
-            : base(fuelConsumption, fuelTankVolume, vehicleMileage, seats)
+        /// <param name="price">Price of the car.</param>
+        public Vaz(double fuelConsumption, double fuelTankVolume, int vehicleMileage, int seats, int price)
+            : base(fuelConsumption, fuelTankVolume, vehicleMileage, seats, price)
         {
         }
 

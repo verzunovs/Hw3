@@ -29,5 +29,10 @@
         /// Gets vehicle mileage.
         /// </summary>
         int VehicleMileage { get; }
+
+        /// <summary>
+        /// Gets price of car;
+        /// </summary>
+        int Price { get; }
     }
 }

@@ -14,8 +14,9 @@
         /// <param name="fuelTankVolume">Max Amount of fuel which fuel tank can contain.</param>
         /// <param name="vehicleMileage">Amount of km which car overcome.</param>
         /// <param name="seats">Amount of seats which can be used for passengers.</param>
-        public Volkswagen(double fuelConsumption, double fuelTankVolume, int vehicleMileage, int seats)
-            : base(fuelConsumption, fuelTankVolume, vehicleMileage, seats)
+        /// <param name="price">Price of the car.</param>
+        public Volkswagen(double fuelConsumption, double fuelTankVolume, int vehicleMileage, int seats, int price)
+            : base(fuelConsumption, fuelTankVolume, vehicleMileage, seats, price)
         {
         }
 
@@ -27,6 +28,6 @@
         /// <summary>
         /// Gets car model.
         /// </summary>
-        public override string CarModel => "Passat"
+        public override string CarModel => "Passat";
     }
 }
