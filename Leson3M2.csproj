@@ -45,9 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Сars\Car.cs" />
+    <Compile Include="Enums\TypeOfTaxi.cs" />
+    <Compile Include="Models\Car.cs" />
     <Compile Include="Entities\TaxiStation.cs" />
     <Compile Include="Models\ICarProperties.cs" />
+    <Compile Include="Models\Сars\PassangerTaxi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
