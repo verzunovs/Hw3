@@ -11,7 +11,8 @@
         /// <param name="args">arggs added via console.</param>
         public static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello World.");
+            var run = new Starter();
+            run.Run();
         }
     }
 }
