@@ -18,13 +18,13 @@
         {
             var car1 = x as PassengerTaxi;
             var car2 = x as PassengerTaxi;
-            if (car1.Price > car2.Price)
+            if (car1.FuelConsumption > car2.FuelConsumption)
             {
                 return 1;
             }
             else
             {
-                if (car1.Price < car2.Price)
+                if (car1.FuelConsumption < car2.FuelConsumption)
                 {
                     return -1;
                 }
